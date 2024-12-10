@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Oleo+Script:wght@700&family=Oswald:wght@700&family=Raleway:ital,wght@0,100;1,100&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      nav li a {
+        text-decoration: none;
+        font-family: "Oswald", sans-serif;
+        margin: 20px;
+        color: rgb(255, 204, 0);
+      }
+
+      nav li a:hover,
+      a:active {
+        text-decoration: none;
+        color: rgb(102, 0, 102);
+        background-color: rgb(255, 204, 0);
+        padding: 2px 4px;
+        border-radius: 8px;
+      }
+
+      .host-content a {
+        background-color: rgb(128, 77, 0);
+        color: rgb(102, 153, 153);
+        display: inline-block;
+      }
+
+      .host-content a:hover,
+      a:active {
+        color: white;
+        background-color: rgb(239, 151, 19);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1>
+          <a href="/index.html" style="text-decoration: none">Travel Goals</a>
+        </h1>
+        <nav>
+          <ul style="list-style: none; font-size: 24px">
+            <li><a href="/places.html">Destinations</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="host">
+        <div class="host-content">
+          <h2
+            style="
+              font-family: 'Roboto', sans-serif;
+              font-size: 65px;
+              text-transform: uppercase;
+            "
+          >
+            Live Love Laugh!
+          </h2>
+          <p
+            style="
+              font-size: 36px;
+              font-family: 'Raleway', sans-serif;
+              font-weight: 200;
+            "
+          >
+            Welcome and stay Onboard
+          </p>
+          <a
+            href="/places.html"
+            >Discover Places</a
+          >
+        </div>
+      </section>
+      <section class="host-destination">
+        <h2 style="text-align: center">Highlights</h2>
+        <div class="Highlights">
+          <ul id="destinations">
+            <li>
+              <img src="/images/places/hawaii.jpg" alt="a beach in Hawaii" />
+              <p>Hawaii <strong>USA</strong></p>
+            </li>
+            <li>
+              <img src="/images/places/munich.jpg" alt="a stadium in Munich" />
+              <p>Munich <strong>Germany</strong></p>
+            </li>
+            <li>
+              <img src="/images/places/tokyo.jpg" alt="Tokyo city" />
+              <p>Tokyo <strong>Japan</strong></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer
+      style="
+        background: linear-gradient(90deg, rgb(41, 41, 61), rgb(51, 51, 77));
+        padding: 20px;
+        color: white;
+      "
+    >
+      <div class="footer-element">
+        <ul style="display: flex; justify-content: center; margin: 0 auto">
+          <li style="width: 80px; height: 80px; margin: 0 50px">
+            <a href="https://Instagram.com"
+              ><img
+                src="/images/icons/icons folder/insta.png"
+                alt="Instagram logo"
+            /></a>
+          </li>
+          <li style="width: 80px; height: 80px; margin: 0 50px">
+            <a href="https://facebook.com"
+              ><img
+                src="/images/icons/icons folder/facebook.png"
+                alt="Facebook logo"
+            /></a>
+          </li>
+        </ul>
+        <p style="text-align: center">&copy All rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
